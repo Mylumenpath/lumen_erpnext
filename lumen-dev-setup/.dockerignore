@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Node modules
+node_modules/
+
+# Docker volumes or database mounts
+volumes/
+data/
+*.sqlite
+*.log
+
+# OS and editor cruft
+.DS_Store
+*.swp
+*.swo
+
+# Local env and backup files
+.env.local
+.env.test
+.env.backup
+
+# Keep these in Git, but prevent from copying into Docker image
+# (these are fine in repo, just ignored during Docker build)
+!.env
+!.dockerignore
+!README.md
+!Procfile

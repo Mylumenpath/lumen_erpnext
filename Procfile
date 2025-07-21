@@ -1,1 +1,1 @@
-web: bench serve --port 8085 
+web: bench start

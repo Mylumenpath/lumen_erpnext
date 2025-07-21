@@ -1,0 +1,1 @@
+web: cd lumen-dev-setup && bench serve --port $PORT
