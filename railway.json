@@ -1,0 +1,8 @@
+{
+  "build": {
+    "builder": "Docker",
+    "dockerfilePath": "lumen-dev-setup/Dockerfile",
+    "context": "lumen-dev-setup"
+  },
+  "startCommand": null
+}
